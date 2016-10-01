@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			body{
+				overflow: hidden;
+			}
+			#imgWrap{
+				width: 800px;
+				height: 400px;
+				margin: 40px auto;
+				perspective: 800px;/*值越小 图片越小越聚集在中间*/
+				-webkit-perspective: 800px; 
+			}
+			#imgWrap img{
+				width: 80px;
+				height: 80px;
+				float: left;
+			}
+			.btn{
+				background: rgb(0, 100, 0); 
+				color: white;
+				padding: 10px 20px; 
+				border-radius: 5px;
+				cursor: pointer;
+				margin:0 auto;
+				width:100px;
+				text-align:center;
+				font-family: "微软雅黑";
+				box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+			}
+			.btn:hover{
+				background: #003a64;
+			}
+		</style>
+		<script src="js/pic.js"></script>
+		<script>
+			/*
+			运动步骤
+			1、闪的效果(瞬间宽高都变为0,scale随机)
+			2、图片从小到大,同时透明度从1变到0(必须是上一部走完了,它才会走)
+			3、图片旋转,同时透明度从0变到1,有层次感(位移)(当所有图片透明度都变为0的时候,才会走这一步)
+
+			 */
+		</script>
+	</head>
+	<body>
+		<div id="imgWrap">
+			<img src="http://fangxx.org/demo/photo_wall/images/1.jpg" alt="">
+			<img src="http://fangxx.org/demo/photo_wall/images/2.jpg" alt="">
+			<img src="http://fangxx.org/demo/photo_wall/images/3.jpg" alt="">
+			<img src="http://fangxx.org/demo/photo_wall/images/4.jpg" alt="">
+			<img src="http://fangxx.org/demo/photo_wall/images/5.jpg" alt="">
+			<img src="http://fangxx.org/demo/photo_wall/images/6.jpg" alt="">
+			<img src="http://fangxx.org/demo/photo_wall/images/7.jpg" alt="">
+			<img src="http://fangxx.org/demo/photo_wall/images/8.jpg" alt="">
+			<img src="http://fangxx.org/demo/photo_wall/images/9.jpg" alt="">
+			<img src="http://fangxx.org/demo/photo_wall/images/10.jpg" alt="">
+			<img src="http://fangxx.org/demo/photo_wall/images/11.jpg" alt="">
+			<img src="http://fangxx.org/demo/photo_wall/images/12.jpg" alt="">
+			<img src="http://fangxx.org/demo/photo_wall/images/13.jpg" alt="">
+			<img src="http://fangxx.org/demo/photo_wall/images/14.jpg" alt="">
+			<img src="http://fangxx.org/demo/photo_wall/images/15.jpg" alt="">
+			<img src="http://fangxx.org/demo/photo_wall/images/16.jpg" alt="">
+			<img src="http://fangxx.org/demo/photo_wall/images/17.jpg" alt="">
+			<img src="http://fangxx.org/demo/photo_wall/images/18.jpg" alt="">
+			<img src="http://fangxx.org/demo/photo_wall/images/19.jpg" alt="">
+			<img src="http://fangxx.org/demo/photo_wall/images/20.jpg" alt="">
+			<img src="http://fangxx.org/demo/photo_wall/images/21.jpg" alt="">
+			<img src="http://fangxx.org/demo/photo_wall/images/22.jpg" alt="">
+			<img src="http://fangxx.org/demo/photo_wall/images/23.jpg" alt="">
+			<img src="http://fangxx.org/demo/photo_wall/images/24.jpg" alt="">
+			<img src="http://fangxx.org/demo/photo_wall/images/25.jpg" alt="">
+			<img src="http://fangxx.org/demo/photo_wall/images/26.jpg" alt="">
+			<img src="http://fangxx.org/demo/photo_wall/images/27.jpg" alt="">
+			<img src="http://fangxx.org/demo/photo_wall/images/28.jpg" alt="">
+			<img src="http://fangxx.org/demo/photo_wall/images/29.jpg" alt="">
+			<img src="http://fangxx.org/demo/photo_wall/images/30.jpg" alt="">
+			<img src="http://fangxx.org/demo/photo_wall/images/31.jpg" alt="">
+			<img src="http://fangxx.org/demo/photo_wall/images/32.jpg" alt="">
+			<img src="http://fangxx.org/demo/photo_wall/images/33.jpg" alt="">
+			<img src="http://fangxx.org/demo/photo_wall/images/34.jpg" alt="">
+			<img src="http://fangxx.org/demo/photo_wall/images/35.jpg" alt="">
+			<img src="http://fangxx.org/demo/photo_wall/images/36.jpg" alt="">
+			<img src="http://fangxx.org/demo/photo_wall/images/37.jpg" alt="">
+			<img src="http://fangxx.org/demo/photo_wall/images/38.jpg" alt="">
+			<img src="http://fangxx.org/demo/photo_wall/images/39.jpg" alt="">
+			<img src="http://fangxx.org/demo/photo_wall/images/40.jpg" alt="">
+			<img src="http://fangxx.org/demo/photo_wall/images/41.jpg" alt="">
+			<img src="http://fangxx.org/demo/photo_wall/images/42.jpg" alt="">
+			<img src="http://fangxx.org/demo/photo_wall/images/43.jpg" alt="">
+			<img src="http://fangxx.org/demo/photo_wall/images/44.jpg" alt="">
+			<img src="http://fangxx.org/demo/photo_wall/images/45.jpg" alt="">
+			<img src="http://fangxx.org/demo/photo_wall/images/46.jpg" alt="">
+			<img src="http://fangxx.org/demo/photo_wall/images/47.jpg" alt="">
+			<img src="http://fangxx.org/demo/photo_wall/images/48.jpg" alt="">
+			<img src="http://fangxx.org/demo/photo_wall/images/49.jpg" alt="">
+			<img src="http://fangxx.org/demo/photo_wall/images/50.jpg" alt="">
+		</div>
+		<div class="btn">点击查看效果</div>
+	</body>
+</html>
